@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f2c1371436348b1254456f80618ec913 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f2c1371436348b1254456f80618ec913" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f2c1371436348b1254456f80618ec913 = L.map(
+                "map_f2c1371436348b1254456f80618ec913",
+                {
+                    center: [43.773, 11.255],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3c4dd6a19684a3fcbab3829367dfec9b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+    
+            var marker_6b93961439a093b7568516cada482c6a = L.marker(
+                [43.7761, 11.2486],
+                {}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+    
+        var popup_4543500056a00cb44fc53296e446b33a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81d3355cadc8986e1d9f4103e4e5ef86 = $(`<div id="html_81d3355cadc8986e1d9f4103e4e5ef86" style="width: 100.0%; height: 100.0%;">Santa Maria Novella (вокзал)</div>`)[0];
+            popup_4543500056a00cb44fc53296e446b33a.setContent(html_81d3355cadc8986e1d9f4103e4e5ef86);
+        
+
+        marker_6b93961439a093b7568516cada482c6a.bindPopup(popup_4543500056a00cb44fc53296e446b33a)
+        ;
+
+        
+    
+    
+            var marker_dd1db98d20763f0c4647f9460030479f = L.marker(
+                [43.7731, 11.2556],
+                {}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+    
+        var popup_15b7051dd2d7a774ea313dab5eb900ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c32bd16188c16ec6ee72bbbda26aa2d = $(`<div id="html_1c32bd16188c16ec6ee72bbbda26aa2d" style="width: 100.0%; height: 100.0%;">Piazza del Duomo</div>`)[0];
+            popup_15b7051dd2d7a774ea313dab5eb900ff.setContent(html_1c32bd16188c16ec6ee72bbbda26aa2d);
+        
+
+        marker_dd1db98d20763f0c4647f9460030479f.bindPopup(popup_15b7051dd2d7a774ea313dab5eb900ff)
+        ;
+
+        
+    
+    
+            var marker_8a0f870252158707b56c0854f09cd208 = L.marker(
+                [43.7696, 11.2558],
+                {}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+    
+        var popup_415fc70e087fad4fcf31fe2b00663304 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87a5aaad57095f4a76c8142c1d722465 = $(`<div id="html_87a5aaad57095f4a76c8142c1d722465" style="width: 100.0%; height: 100.0%;">Piazza della Signoria / Palazzo Vecchio</div>`)[0];
+            popup_415fc70e087fad4fcf31fe2b00663304.setContent(html_87a5aaad57095f4a76c8142c1d722465);
+        
+
+        marker_8a0f870252158707b56c0854f09cd208.bindPopup(popup_415fc70e087fad4fcf31fe2b00663304)
+        ;
+
+        
+    
+    
+            var marker_0cccdb50fb3619f35a397626fc319955 = L.marker(
+                [43.7687, 11.255],
+                {}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+    
+        var popup_db890ed063d2afdfc3ae3569d9494417 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb7bb4013f0d209e49d0dfaf9ba0f31d = $(`<div id="html_eb7bb4013f0d209e49d0dfaf9ba0f31d" style="width: 100.0%; height: 100.0%;">Uffizi</div>`)[0];
+            popup_db890ed063d2afdfc3ae3569d9494417.setContent(html_eb7bb4013f0d209e49d0dfaf9ba0f31d);
+        
+
+        marker_0cccdb50fb3619f35a397626fc319955.bindPopup(popup_db890ed063d2afdfc3ae3569d9494417)
+        ;
+
+        
+    
+    
+            var marker_1cbca9460f4d3089e8b0ea628180d2f1 = L.marker(
+                [43.7679, 11.2531],
+                {}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+    
+        var popup_812848c13ee8600cc48155b57ba5ed27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aa6d46759ae42ab7dc2db666de77552 = $(`<div id="html_5aa6d46759ae42ab7dc2db666de77552" style="width: 100.0%; height: 100.0%;">Ponte Vecchio</div>`)[0];
+            popup_812848c13ee8600cc48155b57ba5ed27.setContent(html_5aa6d46759ae42ab7dc2db666de77552);
+        
+
+        marker_1cbca9460f4d3089e8b0ea628180d2f1.bindPopup(popup_812848c13ee8600cc48155b57ba5ed27)
+        ;
+
+        
+    
+    
+            var marker_d546cb1c2e1a68cf018500e98f1d9117 = L.marker(
+                [43.7647, 11.25],
+                {}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+    
+        var popup_19343c761df960f9fbe97968f016c3c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da562a4d88fcdaa0289a238bd81f981d = $(`<div id="html_da562a4d88fcdaa0289a238bd81f981d" style="width: 100.0%; height: 100.0%;">Palazzo Pitti</div>`)[0];
+            popup_19343c761df960f9fbe97968f016c3c8.setContent(html_da562a4d88fcdaa0289a238bd81f981d);
+        
+
+        marker_d546cb1c2e1a68cf018500e98f1d9117.bindPopup(popup_19343c761df960f9fbe97968f016c3c8)
+        ;
+
+        
+    
+    
+            var marker_f7441d72f0bc49e9785e47725db40764 = L.marker(
+                [43.7639, 11.2488],
+                {}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+    
+        var popup_94c5318ba00f856b2dd39d9a7eaef455 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9f30002faefd055f4c97b096bb95452 = $(`<div id="html_f9f30002faefd055f4c97b096bb95452" style="width: 100.0%; height: 100.0%;">Boboli Gardens (вхід)</div>`)[0];
+            popup_94c5318ba00f856b2dd39d9a7eaef455.setContent(html_f9f30002faefd055f4c97b096bb95452);
+        
+
+        marker_f7441d72f0bc49e9785e47725db40764.bindPopup(popup_94c5318ba00f856b2dd39d9a7eaef455)
+        ;
+
+        
+    
+    
+            var marker_5b4e5706f472df02240d345a09336c00 = L.marker(
+                [43.7685, 11.2626],
+                {}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+    
+        var popup_4f02f8388c7b6e6597b2210e8d994467 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7afa89335d605adc699a79d21bcc087c = $(`<div id="html_7afa89335d605adc699a79d21bcc087c" style="width: 100.0%; height: 100.0%;">Piazza Santa Croce</div>`)[0];
+            popup_4f02f8388c7b6e6597b2210e8d994467.setContent(html_7afa89335d605adc699a79d21bcc087c);
+        
+
+        marker_5b4e5706f472df02240d345a09336c00.bindPopup(popup_4f02f8388c7b6e6597b2210e8d994467)
+        ;
+
+        
+    
+    
+            var marker_e06d87eaaf8841fa98a20a9cfbf48538 = L.marker(
+                [43.7761, 11.2486],
+                {}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+    
+        var popup_c1b029a02b64ea6835215a8fdf912eaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c6701a906171054b64246030f111db0 = $(`<div id="html_0c6701a906171054b64246030f111db0" style="width: 100.0%; height: 100.0%;">Santa Maria Novella (вокзал, повернення)</div>`)[0];
+            popup_c1b029a02b64ea6835215a8fdf912eaf.setContent(html_0c6701a906171054b64246030f111db0);
+        
+
+        marker_e06d87eaaf8841fa98a20a9cfbf48538.bindPopup(popup_c1b029a02b64ea6835215a8fdf912eaf)
+        ;
+
+        
+    
+    
+            var poly_line_be753e82dbb9fcfebccd9ae69f40461e = L.polyline(
+                [[43.7761, 11.2486], [43.7731, 11.2556], [43.7696, 11.2558], [43.7687, 11.255], [43.7679, 11.2531], [43.7647, 11.25], [43.7639, 11.2488], [43.7685, 11.2626], [43.7761, 11.2486]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f2c1371436348b1254456f80618ec913);
+        
+</script>
+</html>
